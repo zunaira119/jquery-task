@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<title>Email system|Profile</title>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ --><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script type="text/javascript" src="assets/js/profile.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class=" col-md-2">
+			<h2 style="margin-top:-4px; color: #428BCA;" class="grid-title"><i class="fa fa-envelope"></i>Account</h2>
+		</div>
+		<div class="col-sm-8">
+			<form action="#" class="text-right">
+									<div class="input-group">
+										<input type="text" class="form-control input-sm" placeholder="Search">
+										<span class="input-group-btn">
+                                            <button type="submit" name="search" class="btn_ btn-primary btn-sm search"><i class="fa fa-search"></i></button></span>
+									</div>			 
+								</form>
+		</div>
+		<div class="col-sm-2">
+			<img src="assets/images/1.jpg" alt="Avatar" id="profile_image" class="avatar dropdown-toggle" data-toggle="dropdown">
+			<ul class="dropdown-menu ul1" role="menu">
+                    <li><div class="row">
+                              <div class="col-md-12 form1">
+                                 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                                    <div id="profile"class="form-group">
+                                       <img src="assets/images/1.jpg" class="img1">
+                                        <h3  class="h"></h3>
+                                        <p class="h"></p>
+                                    </div>
+                                    <div class="form-group">
+                                       <a href="profile.html" type="submit" class="btn default profile_setting btn-block">Manage your account</a> 
+                                    </div>
+                                    <hr>
+                                    <div class="form-group">
+                                       <button type="submit" id="signout" class="btn default logout btn-block">Sign Out</button>
+                                    </div>
+                                    <hr>
+                                    <a style="margin-left: 15%;" class="small" href="">privacy policy</a> &nbsp;<a class="small" href="">Terms of services</a>
+                                 </form>
+                              </div>
+                           </div></li>
+                </ul>
+		</div>
+		
+	</div>
+	<!-- <hr> -->
+    <hr />
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+          <nav>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="inbox.html"><i style="margin-right: 1px;" class="fa fa-inbox"></i> Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="stareEmails" href="profile.html"><i style="margin-right: 1px;" class="fa fa-user"></i>Personal Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="sentEmails" href="password_update.html"><i style="margin-right: 1px;"  class="fa fa-cog"></i>Update Password</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile_update.html"><i style="margin-right: 1px;" class="fa fa-cog"></i>Update Profile</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+        </div>
+        <div class="col-sm-9 col-md-10">
+            <h3 class="info">Personal Info</h3>
+            <p class="info p-color">Basic info, like your name and photo, that you use on Google services</p>
+            <div id="profile-info">
+            <div class="profile-info">
+                <h3 class="p1">Profile</h3>
+                <p class="p-color">Some info may be visible to other people using Google services. Learn more</p>
+                <div class="photo">
+                    <p>PHOTO</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                    <img src="assets/images/1.jpg" class="img2">
+                </div>
+                <hr>
+                <div class="photo">
+                    <p>NAME</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                    
+                </div>
+                <hr>
+                <div class="photo">
+                    <p>BIRTHDAY</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                </div>
+                <hr>
+                <div class="photo">
+                    <p>GENDER</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                </div>
+                <hr>
+                <div class="photo">
+                    <p>PASSWORD</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                </div>
+            </div>
+            <div class="profile-info">
+                <h3 class="p1">Contact Info</h3>
+                <div class="photo">
+                    <p>EMAIL</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                </div>
+                <hr>
+                <div class="photo">
+                    <p>PHONE</p>
+                    <p class="text1">A photo helps to personalize your account</p>
+                </div> 
+            </div>
+            </div>
+        </div>
+        
+</div>
+</body>
+</html>
